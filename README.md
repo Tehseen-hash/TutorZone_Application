@@ -1,50 +1,24 @@
-# Welcome to your Expo app 👋
+# TutorZone
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+TutorZone is a cloud-based mobile application built as a standalone system to deliver an intelligent and unified learning platform. The application connects students with qualified tutors while enabling parents to oversee academic progress.
 
-## Get started
+The overall goal of TutorZone is to enhance the accessibility and effectiveness of learning by bringing essential academic interactions into one seamless mobile experience. It provides an organized digital environment where Students, Tutors, and Parents interact through learning tools, real-time communication, scheduling, and shared educational resources.
 
-1. Install dependencies
+## Key Features
 
-   ```bash
-   npm install
-   ```
+* **User Authentication:** Securely verifies identity using Appwrite Auth and assigns the correct user role (Student, Tutor, or Parent).
+* **Tutor Discovery:** Allows students to explore available tutors through card-based listings displaying subjects, experience, pricing, and ratings.
+* **Real-Time Chat:** Supports instant communication between Students, Tutors, and Parents using Appwrite listeners to ensure no conversation delays.
+* **Scheduling System:** Enables tutors to manage available class timings and allows students to view upcoming sessions or book classes.
+* **Library Content:** Provides access to a central area of educational materials, such as books, notes, and digital resources.
+* **Parent Monitoring:** Empowers parents to monitor their child's academic activity, including class status, attendance, and communication history.
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+## Technology Stack
 
-In the output, you'll find options to open the app in a
+* **Frontend:** React Native CLI
+* **Backend:** Node.js
+* **Database & Auth:** Appwrite (Real-time NoSQL Database, Authentication, and Storage)
+* **Navigation:** React Navigation (Tab + Stack)
+* **Communication:** REST + Realtime WebSockets
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
